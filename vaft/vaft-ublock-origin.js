@@ -187,7 +187,33 @@ twitch-videoad.js text/javascript
                                                         e.data.value = 'auto';
                                                     }
                                                 }
-                                          
+                                                if (e.data.value.includes('160p')) {
+                                                    qualityToSelect = 5;
+                                                }
+                                                if (e.data.value.includes('360p')) {
+                                                    qualityToSelect = 4;
+                                                }
+                                                if (e.data.value.includes('480p')) {
+                                                    qualityToSelect = 3;
+                                                }
+                                                if (e.data.value.includes('720p')) {
+                                                    qualityToSelect = 2;
+                                                }
+                                                if (e.data.value.includes('822p')) {
+                                                    qualityToSelect = 2;
+                                                }
+                                                if (e.data.value.includes('864p')) {
+                                                    qualityToSelect = 2;
+                                                }
+                                                if (e.data.value.includes('900p')) {
+                                                    qualityToSelect = 2;
+                                                }
+                                                if (e.data.value.includes('936p')) {
+                                                    qualityToSelect = 2;
+                                                }
+                                                if (e.data.value.includes('960p')) {
+                                                    qualityToSelect = 2;
+                                                }
                                                 if (e.data.value.includes('1080p')) {
                                                     qualityToSelect = 2;
                                                 }
